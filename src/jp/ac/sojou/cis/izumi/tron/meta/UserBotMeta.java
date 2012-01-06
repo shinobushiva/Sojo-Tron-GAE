@@ -1,6 +1,6 @@
 package jp.ac.sojou.cis.izumi.tron.meta;
 
-//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-01-05 00:51:24")
+//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-01-06 18:47:13")
 /** */
 public final class UserBotMeta extends org.slim3.datastore.ModelMeta<jp.ac.sojou.cis.izumi.tron.model.UserBot> {
 
