@@ -1,0 +1,17 @@
+<!-- Indices written at Fri, 6 Jan 2012 04:12:38 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 13 times in query history -->
+    <datastore-index kind="UserBot" ancestor="false" source="auto">
+        <property name="userRef" direction="asc"/>
+        <property name="time" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 7 times in query history -->
+    <datastore-index kind="ChallengeResult" ancestor="false" source="auto">
+        <property name="user1Ref" direction="asc"/>
+        <property name="time" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>

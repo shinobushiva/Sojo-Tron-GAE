@@ -1,0 +1,197 @@
+@CHARSET "utf-8";
+
+a {
+	color: #fff;
+	cursor: pointer;
+}
+
+a:HOVER {
+	background: none;
+}
+
+.blue {
+	background-color: #23b1cc;
+	color: #fff;
+}
+
+.red {
+	background-color: #FF3838;
+	color: #fff;
+}
+
+.orange {
+	background-color: #fba921;
+	color: #fff;
+}
+
+.resultLine {
+	font-size: 18px;
+	display: block;
+	position: relative;
+}
+
+.boxTitle {
+	float: left;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-size: 12px;
+}
+
+.box-error {
+	position: relative;
+	width: 450px;
+	padding: 20px 20px;
+	vertical-align: middle;
+	margin: 5px;
+	font-size: 18px;
+}
+
+.box4x2 {
+	position: relative;
+	width: 450px;
+	height: 200px;
+	padding: 20px 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5px;
+	font-size: 24px;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+}
+
+.box4x4 {
+	position: relative;
+	width: 450px;
+	height: 450px;
+	padding: 20px 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5px;
+	font-size: 24px;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+}
+
+.box4x1 {
+	position: relative;
+	width: 450px;
+	height: 80px;
+	padding: 20px 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5px;
+	font-size: 24px;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+}
+
+.box2x1 {
+	position: relative;
+	width: 200px;
+	height: 80px;
+	padding: 20px 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5px;
+	font-size: 24px;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+}
+
+.box2x2 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	padding: 20px 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5px;
+	font-size: 24px;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+}
+
+.vcenter {
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+}
+
+.left-text {
+	position: absolute;
+	left: 10px;
+}
+
+.right-text {
+	position: absolute;
+	right: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.form {
+	font-size: 18px;
+}
+
+.form div {
+	margin: 10px 0px;
+	text-align: left;
+}
+
+.form input {
+	margin-left: 20px;
+}
+
+#image-btn-next {
+	float: right;
+	height: 48px;
+	cursor: pointer;
+	background: url(../img/buttons/next.png) left top no-repeat;
+	border: 0px;
+	width: 48px;
+}
+
+#image-btn-back {
+	position: absolute;
+	top: 20px;
+	left: 65px;
+	width: 48px;
+	height: 48px;
+	cursor: pointer;
+	background: url(../img/buttons/back.png) left top no-repeat;
+	border: 0px;
+}
